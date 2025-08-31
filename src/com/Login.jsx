@@ -36,7 +36,7 @@ export default function Login() {
       const csrfToken = document.cookie.match(/csrftoken=([^;]+)/)?.[1];
 
       const response = await axios.post(
-        'http://localhost:8000/login/',
+        'django-bwy5wntqw-rahulertis-projects.vercel.app/login/',
         {
           username: formData.username,
           password: formData.password,
