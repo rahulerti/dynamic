@@ -34,7 +34,7 @@ useEffect(() => {
             const csrfToken = document.cookie.match(/csrftoken=([^;]+)/)?.[1];
 
             const response = await axios.post(
-                'https://rahuldebnath.pythonanywhere.com/api/data/app_login/',
+                'https://rahuldebnath.pythonanywhere.com/login/',
                 {
                     username: Data.username,
                     password: Data.password,
