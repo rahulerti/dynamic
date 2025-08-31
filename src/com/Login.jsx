@@ -36,7 +36,7 @@ export default function Login() {
       const csrfToken = document.cookie.match(/csrftoken=([^;]+)/)?.[1];
 
       const response = await axios.post(
-        'https://RahulDebnath.pythonanywhere.com/login/',
+        'https://rahuldebnath.pythonanywhere.com/api/data/login/',
         {
           username: formData.username,
           password: formData.password,
