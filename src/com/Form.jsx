@@ -9,7 +9,7 @@ export default function Form() {
 
   const onSubmit = async (formData) => {
     try {
-      await axios.post('django-bwy5wntqw-rahulertis-projects.vercel.app/signup/', {
+      await axios.post('https://RahulDebnath.pythonanywhere.com/signup/', {
         username: formData.username,
         email: formData.email,
         password: formData.password,
