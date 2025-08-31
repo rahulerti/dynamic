@@ -9,7 +9,7 @@ export default function User_sign() {
 
   const onSubmit = async (formData) => {
     try {
-      const response = await axios.post('https://rahuldebnath.pythonanywhere.com/api/data/app_signup/', {
+      const response = await axios.post('https://rahuldebnath.pythonanywhere.com/app_signup/', {
         username: formData.username,
         email: formData.email,
         password: formData.password,
