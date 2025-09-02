@@ -27,7 +27,7 @@ export default function Order() {
 
     // API request to submit the order using Axios
     try {
-      const response = await axios.post('http://127.0.0.1:8000/order/', orderData);
+      const response = await axios.post('https://rahuldebnath.pythonanywhere.com/order/', orderData);
       
       if (response.status === 200) {
         alert('Order placed successfully!');

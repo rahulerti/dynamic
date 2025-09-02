@@ -11,7 +11,7 @@ function Orders() {
       try {
         const token = localStorage.getItem('token'); // Get token from localStorage
 
-        const response = await axios.get('http://localhost:8000/get-orders/', {
+        const response = await axios.get('https://rahuldebnath.pythonanywhere.com/get-orders/', {
           headers: {
             Authorization: token,  // Pass the JWT token here and (remember Use JWT token in Authorization header for all subsequent protected API calls after login.)
           },

@@ -9,7 +9,7 @@ export default function Form() {
 
   const onSubmit = async (formData) => {
     try {
-      await axios.post('http://127.0.0.1:8000/signup/', {
+      await axios.post('https://rahuldebnath.pythonanywhere.com/signup/', {
         username: formData.username,
         email: formData.email,
         password: formData.password,
