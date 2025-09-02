@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Route, Routes,useLocation} from "react-router-dom";
 import React from "react";
-import Form from "./com/form";
+import Form from "./com/Form";
 import Nav from "./com/Nav";
 import Todo from "./com/todo";
 import Tod from "./com/Todoit";
