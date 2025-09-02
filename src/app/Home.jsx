@@ -15,7 +15,7 @@ import op3 from "./images/dog.jpg";
 import op4 from "./images/Natures.jpg";
 import op5 from "./images/buy.jpeg";
 import op6 from "./images/aashirvaad.jpg";
-import op7 from "./images/vada.jpg";
+import op7 from "./images/Vada.jpg";
 import op8 from "./images/organic.jpg";
 import op9 from "./images/realistic.avif";
 import op10 from "./images/special.avif";
