@@ -52,9 +52,6 @@ import Prof from "./app/Profile";
   );
 }
 export default function App() {
-  return (
-    <Router>
-      <Appcont />
-    </Router>
-  );
+  return <Appcont />;  // ✅ No <Router> here
 }
+
